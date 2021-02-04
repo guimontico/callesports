@@ -2,17 +2,21 @@
   <section class="home">
     <topbarmenu />
     <h1>home Components</h1>
+    <footerComponent />
   </section>
 
 </template>
 
 <script lang="js">
   import topbarmenu from '../shared/topbarmenu.vue'
+  //eslint-disable-next-line no-unused-vars
+  import footerComponent from '../footer/footer-component.vue'
 
   export default  {
     name: 'home',
     components:{
-      topbarmenu
+      topbarmenu,
+      footerComponent
     },
     props: [],
     mounted () {
